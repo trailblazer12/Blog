@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>至理箴言</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=0.7, user-scalable=no">	
+        <style>
+            body{
+                background-color: #f5fdfd;
+                /*width: 70%;*/
+            }
+            h1{
+                color: black;
+                text-align: center;
+				text-shadow:0px 1px 10px #cdfcfa;
+            }
+            h3{
+                color:black;
+                text-align:left;
+				text-shadow:0px 1px 10px #cdfcfa;				
+            }
+			img{
+				border-radius:15px;
+				box-shadow:0px 1px 10px #cdfcfa;
+			}
+			a{
+				text-decoration:none;
+				color:#2244aa;
+				text-shadow:0px 1px 10px #cdfcfa;
+			}
+			p{
+				text-decoration:none;
+				color:#2244aa;
+				text-shadow:0px 1px 10px #cdfcfa;
+			}
+			hr{
+				border:none;
+				border-top:1px dashed #2244aa;	
+			}
+        </style>
+    </head>
+    <body>
+		<center><b>
+        <h1 style="text-align: center;">至理箴言</h1>
+        <p>当人们真心真意想要达成某个目标时，他注定是孑然一身，必须独自去面对一切才行。</p>
+        <p style="text-align: right;"><i>——动漫《魔女之旅》</i></p>
+    </br>
+        <p>世界上只有一种真正的英雄主义，那就是看清生活的真相之后，依然热爱生活。</p>
+        <p style="text-align: right;"><i>——罗曼罗兰</i></p>
+    </br>
+        <p>在刺激和回应之间还留有一些空间，这个空间允许我们以自己的意志去选择我们的回应方式。我们所做出的回应包含了我们的成长和自由。</p>
+        <p style="text-align: right;"><i>——弗兰克尔</i></p>
+    </br>
+		</b></center>
+	<script src="js/anime.min.js"></script>
+	<script type="text/javascript">
+		//来个简单的 (•ᴗ•)
+		let h1=anime({targets:'h1',opacity:[0,1],duration:800,easing:'linear'});
+		let h3=anime({targets:'h3',opacity:[0,1],duration:600,easing:'linear',delay:400});
+		let a=anime({targets:'a',opacity:[0,1],duration:600,easing:'linear',delay:800});
+		let p=anime({targets:'p',opacity:[0,1],duration:400,easing:'linear',delay:600});
+		let hr=anime({targets:'hr',opacity:[0,1],width:{value:['0%','100%']},duration:400,easing:'linear',delay:1200});	
+	</script>	
+    </body>
+</html>
