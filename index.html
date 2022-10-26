@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="shortcut icon" href="documents/favicon.ico">
+        <title>导航页</title>
+		<meta name="viewport" content="width=device-width,initial-scale=0.65, user-scalable=no">	
+		<meta charset="UTF-8">
+        <style>
+			html{
+				filter:brightness(130%);
+			}
+            body{
+				
+                background-color: #adddFF;
+				background-image: url(documents/b.jpg);
+				/*If It Loads Too Slow，Try This：*/
+				background-image: url(http://www.hflz.com/uploadFiles/files/20221023/ffe369a9-7c05-4cb9-b223-7689988671aa/638021197835075178.jpg);
+				*/
+                background-repeat:no-repeat;
+                background-attachment: fixed;
+                background-position: center;
+				background-size: cover;
+				height: calc(100vh);
+            }
+            h1{
+				filter:brightness(80%);
+                color: black;
+                text-align: center;
+				text-shadow:0px 1px 10px #cdfcfa;
+            }
+            h3{
+				filter:brightness(80%);
+                color:black;
+                text-align:left;
+				text-shadow:0px 1px 10px #cdfcfa;				
+            }
+			img{
+				filter:brightness(95%);
+				border-radius:15px;
+				box-shadow:0px 1px 10px #cdfcfa;
+			}
+			a{
+				filter:brightness(80%);
+				text-decoration:none;
+				color:#0066FF;
+				text-shadow:0px 1px 10px #cdfcfa;
+			}
+			hr{
+				border:none;
+				border-top:1px dashed #0066FF;	
+			}
+        </style>
+    </head>
+    <div style="width:96%;margin: 0 auto;">
+    <body>
+		<div style="padding:15px 15px 15px 15px;margin:15px 15px 15px 15px;background:rgba(225,215,255,0.6);border-radius:15px;">
+		<b>
+        <h1>导航页</h1>
+		<a href="个人主页.html"><img src="documents/1.jpg"></a>&nbsp;&nbsp;&nbsp;
+        <a href="index-black.html"><img src="documents/5.jpg"><br></a>
+        <a href="个人主页.html">个人主页</a>
+        <a href="index-black.html">切换暗黑版</a>
+        <br/>
+		<hr>
+        <h3>至理箴言</h3>
+        <a href="至理箴言.html">至理箴言</a>
+		<hr>
+        <h3>思维导图（大纲笔记）</h3>
+        <a href="因类赋形，按图索意，图文准确转换.html">因类赋形，按图索意，图文准确转换</a>
+        <br/>
+        <a href="嵌套列表.html">常见修辞手法</a>
+        </br>
+        <a href="仿用句式：示例定句型，修辞描情景.html">仿用句式：示例定句型，修辞描情景</a>
+        <br/>
+		<hr>
+        <h3>其他文件</h3>
+        <a href="https://docs.qq.com/s/GG6GXbrt8q7IKQmdLab0la"><img src="documents/4.jpg"><br>步步高部分答案</a>
+        <hr>
+        <h3>ACGN文化栏</h3>
+        <a href="炮姐.html">炮姐</a>
+        <br/>
+        <a href="千歌.html">千歌</a>
+        <br/>
+        <a href="阿尼亚·福杰.html">阿尼亚·福杰</a>
+        <br>
+        <a href="希儿·芙乐艾.html">希儿·芙乐艾</a>
+        <hr>
+        <h3>个人博客</h3>
+        <a href="My blog.html"><img src="documents/2.jpg"><br>个人博客</a>
+        <br><hr>
+        <h3>小游戏</h3>
+        <a href="runner/index.html">小恐龙</a>
+        <br/>
+        <a href="chess/五子棋.html">五子棋（人工智障）</a>
+        <br/>
+        <a href="S.U.R.F.-master/index.html">滑板冲浪</a>
+        <br/>
+        <a href="Gobang-game-master/古典五子棋人机对战.html">五子棋（人工智能）</a>
+        <br/>
+        <a href="2048/index.html">2048小游戏</a>
+        <br/>
+        <a href="maze/index.html">迷宫</a>
+        <br/>
+        <a href="cardgame/index.html">翻转卡片</a>
+        <br/>
+        <p>*限于技术原因(T_T)，滑板冲浪只能在电脑端正常运行</p>
+		<hr>
+        <h3>电子画板</h3>
+		<a href="draw-master/index.html"><img src="documents/3.jpg"><br>
+		emo蚂蚁</a>
+		</b>
+    </body>
+    </div>
+	<script src="js/anime.min.js"></script>
+	<script type="text/javascript">
+		//来个简单的 (•ᴗ•)
+		let h1=anime({targets:'h1',opacity:[0,1],duration:800,easing:'linear'});
+		let h3=anime({targets:'h3',opacity:[0,1],duration:600,easing:'linear',delay:400});
+		let a=anime({targets:'a',opacity:[0,1],duration:600,easing:'linear',delay:800});
+		let p=anime({targets:'p',opacity:[0,1],duration:400,easing:'linear',delay:1000});
+		let hr=anime({targets:'hr',opacity:[0,1],width:{value:['0%','100%']},duration:400,easing:'linear',delay:1200});	
+	</script>
+</html>
